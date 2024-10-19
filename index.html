@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redmad - Juegos en la Nube | Colombia</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="bg-gray-100">
+<!-- Navegación -->
+<nav class="bg-gray-900 text-white fixed w-full z-50">
+    <div class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center">
+                <svg class="h-10 w-10 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l2-1v-2.5M18 18l-2-1v-2.5"></path>
+                </svg>
+                <span class="ml-3 text-xl font-bold">RedMad</span>
+            </div>
+            <div class="hidden md:block">
+                <div class="flex items-center space-x-8">
+                    <a href="#inicio" class="hover:text-red-500">Inicio</a>
+                    <a href="#nosotros" class="hover:text-red-500">Nosotros</a>
+                    <a href="#juegos" class="hover:text-red-500">Juegos</a>
+                    <a href="#tecnologia" class="hover:text-red-500">Tecnología</a>
+                    <a href="#contacto" class="hover:text-red-500">Contacto</a>
+                    <a href="./templates/login.html" class="hover:text-red-500">Login</a> <!-- Enlace de Login -->
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    <!-- Hero Section -->
+    <header id="inicio" class="bg-gray-900 text-white pt-32 pb-20">
+        <div class="container mx-auto px-6 text-center">
+            <div id="typewriter-text" class="text-4xl font-bold"></div>
+            <p class="text-xl mb-8">Disfruta de los mejores juegos en la nube desde cualquier PC</p>
+            <button class="bg-red-500 text-white px-8 py-3 rounded-lg hover:bg-red-600 transition duration-300">
+                Comenzar ahora
+            </button>
+        </div>
+    </header>
+
+<!-- Sección Inicio -->
+<section id="inicio" class="bg-gray-50 py-16">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Bienvenidos a RedMad</h2>
+            <p class="text-gray-600 text-lg mb-8">Explora una amplia variedad de juegos en la nube, accesibles desde cualquier dispositivo.</p>
+        </div>
+        <div class="flex justify-center">
+            <div class="max-w-lg w-full bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-2xl font-semibold mb-4">¿Qué es RedMad?</h3>
+                <p class="text-gray-600 mb-6">
+                    RedMad es tu plataforma de juegos en la nube, donde puedes disfrutar de una experiencia de juego fluida y sin complicaciones. Accede a tus juegos favoritos en cualquier momento y desde cualquier lugar, sin necesidad de instalaciones.
+                </p>
+                <button class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">Explorar Juegos</button>
+                
+                <!-- Iconos de Características -->
+                <div class="flex justify-around mt-8">
+                    <div class="text-center">
+                        <svg class="w-12 h-12 mb-2 mx-auto text-blue-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 22c-5.523 0-10-4.477-10-10s4.477-10 10-10 10 4.477 10 10-4.477 10-10 10zm5.5-15h-3.75v-3.75c0-.414-.336-.75-.75-.75s-.75.336-.75.75v3.75h-3.75c-.414 0-.75.336-.75.75s.336.75.75.75h3.75v3.75c0 .414.336.75.75.75s.75-.336.75-.75v-3.75h3.75c.414 0 .75-.336.75-.75s-.336-.75-.75-.75z"/></svg>
+                        <h4 class="font-semibold">Juegos Diversos</h4>
+                    </div>
+                    <div class="text-center">
+                        <svg class="w-12 h-12 mb-2 mx-auto text-blue-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 12l-4-4v3h-10v2h10v3zM2 12l4 4v-3h10v-2H6v-3z"/></svg>
+                        <h4 class="font-semibold">Acceso Inmediato</h4>
+                    </div>
+                    <div class="text-center">
+                        <svg class="w-12 h-12 mb-2 mx-auto text-blue-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 8v10c0 1.103-.897 2-2 2h-1.196c-.297 0-.582-.116-.793-.293l-2.811-2.476c-.679-.599-1.556-.977-2.604-.977s-1.925.378-2.604.977l-2.811 2.476c-.211.177-.496.293-.793.293h-1.196c-1.103 0-2-.897-2-2v-10c0-1.103.897-2 2-2h1.196c.297 0 .582.116.793.293l2.811 2.476c.679.599 1.556.977 2.604.977s1.925-.378 2.604-.977l2.811-2.476c.211-.177.496-.293.793-.293h1.196c1.103 0 2 .897 2 2zm-8.902 1c-.982 0-1.883-.263-2.688-.714l-.883-.63-.883.63c-.805.451-1.706.714-2.688.714h-1.107v8h1.107c1.284 0 2.489-.342 3.525-.923.597-.332 1.134-.764 1.606-1.267.351-.354.682-.759.973-1.207.263-.397.481-.827.648-1.279.188-.536.277-1.077.277-1.636v-2h-1.107z"/></svg>
+                        <h4 class="font-semibold">Compatible en Todos los Dispositivos</h4>
+                    </div>
+                </div>
+                <!-- Fin de Iconos de Características -->
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="bg-gray-50 py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Nosotros</h2>
+                <p class="text-gray-600 text-lg">Somos una empresa apasionada por los videojuegos y la tecnología. Nuestra misión es revolucionar la forma en que las personas disfrutan de los juegos en línea.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Historia</h3>
+                    <p class="text-gray-700">RedMad fue fundada en 2024 con la visión de ofrecer juegos en la nube de alta calidad y accesibles para todos. </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Valores</h3>
+                    <p class="text-gray-700">Innovación, inclusión y sostenibilidad son los pilares fundamentales que guían cada una de nuestras decisiones.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Nuestro equipo</h3>
+                    <p class="text-gray-700">Contamos con un equipo multidisciplinario de desarrolladores, diseñadores y expertos en tecnología, todos comprometidos con la excelencia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Juegos -->
+    <section id="juegos" class="bg-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Juegos Disponibles</h2>
+                <p class="text-gray-600">Explora nuestra increíble selección de juegos en diferentes categorías.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Tarjeta de juego 1 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="./img/minecraft.jpeg" class="rounded-lg mb-4" alt="Juego Aventura">
+                    <h3 class="text-xl font-bold mb-2">Aventura</h3>
+                    <p class="text-gray-700">Explora mundos emocionantes llenos de desafíos y misterios. Sumérgete en la aventura de tu vida.</p>
+                </div>
+                <!-- Tarjeta de juego 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="./img/jue.jpeg" class="rounded-lg mb-4" alt="Juego Estrategia">
+                    <h3 class="text-xl font-bold mb-2">Estrategia</h3>
+                    <p class="text-gray-700">Desafía tu mente con juegos que requieren planificación táctica y decisiones rápidas.</p>
+                </div>
+                <!-- Tarjeta de juego 3 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="./img/images.jpeg" class="rounded-lg mb-4" alt="Juego Carrera">
+                    <h3 class="text-xl font-bold mb-2">Carreras</h3>
+                    <p class="text-gray-700">Vive la adrenalina de las carreras en tiempo real, compitiendo contra jugadores de todo el mundo.</p>
+                </div>
+                <!-- Más tarjetas de juegos... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Tecnología -->
+    <section id="tecnologia" class="bg-gray-50 py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Nuestra Tecnología</h2>
+                <p class="text-gray-600">Descubre la infraestructura de vanguardia que utilizamos para ofrecer una experiencia de juego fluida y sin interrupciones.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Servidores en la Nube</h3>
+                    <p class="text-gray-700">Utilizamos servidores distribuidos globalmente para garantizar un acceso rápido y sin latencia a nuestros juegos.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Gráficos de Alta Definición</h3>
+                    <p class="text-gray-700">Nuestros juegos están optimizados para ofrecer gráficos en alta definición, brindando una experiencia visual envolvente.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Compatibilidad Multiplataforma</h3>
+                    <p class="text-gray-700">Juega en cualquier dispositivo, ya sea PC, móvil o tablet. Nuestro sistema es totalmente adaptable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="bg-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Contacto</h2>
+                <p class="text-gray-600">Nos encantaría escuchar de ti. Si tienes preguntas o comentarios, no dudes en contactarnos.</p>
+            </div>
+            <form class="bg-gray-100 p-8 rounded-lg shadow-lg">
+                <div class="mb-6">
+                    <label for="nombre" class="block text-gray-700 font-bold mb-2">Nombre</label>
+                    <input type="text" id="nombre" class="w-full p-3 rounded-lg shadow-sm" placeholder="Tu nombre">
+                </div>
+                <div class="mb-6">
+                    <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                    <input type="email" id="email" class="w-full p-3 rounded-lg shadow-sm" placeholder="Tu correo electrónico">
+                </div>
+                <div class="mb-6">
+                    <label for="mensaje" class="block text-gray-700 font-bold mb-2">Mensaje</label>
+                    <textarea id="mensaje" class="w-full p-3 rounded-lg shadow-sm" rows="4" placeholder="Tu mensaje"></textarea>
+                </div>
+                <button class="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition duration-300">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+<!-- Sección del Formulario -->
+
+<section id="formulario" class="bg-gray-50 py-16">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">¡Queremos Escuchar Tu Opinión!</h2>
+            <p class="text-gray-600 text-lg mb-8">Completa el siguiente formulario para ayudarnos a mejorar nuestra plataforma y ofrecerte una mejor experiencia.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScD-ONP4rKtdIWNjqCCD0iNtloDq7lVYonIOyEmcXThxEtakQ/viewform?usp=sf_link" 
+               target="_blank" 
+               class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition duration-300">
+                Ir al Formulario
+            </a>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <svg class="h-8 w-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l2-1v-2.5M18 18l-2-1v-2.5"></path>
+                    </svg>
+                    <span class="ml-3 text-xl font-bold">RedMad</span>
+                </div>
+                <p>&copy; 2024 RedMad. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
